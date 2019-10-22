@@ -159,7 +159,7 @@ namespace TicTacToeSubmissionConole
                     }
                 }
             }
-
+ 
             if (int.Parse(row) == 2)
             {
                 if (int.Parse(column) == 0 || int.Parse(column) == 1 || int.Parse(column) == 2)
@@ -201,8 +201,6 @@ namespace TicTacToeSubmissionConole
             }
 
             Run();
-
         }
-
     }
 }
